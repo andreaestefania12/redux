@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
+=======
+import React, { useEffect } from 'react'
+import { useDispatch, useSelector } from 'react-redux'
+>>>>>>> af06a9b (Mini blog redux with ToolKit)
 
 import { fetchPosts, postsSelector } from '../slices/posts';
 
@@ -27,6 +32,11 @@ const PostsPage = () => {
       {renderPosts()}
     </section>
   )
+<<<<<<< HEAD
 };
   
+=======
+}
+
+>>>>>>> af06a9b (Mini blog redux with ToolKit)
 export default PostsPage;
